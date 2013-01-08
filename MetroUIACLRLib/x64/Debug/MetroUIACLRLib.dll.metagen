@@ -1,0 +1,469 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly MetroUIACLRLib, Version=1.0.*, Culture=不因語言而異 (不因國別而異): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Class MetroUIACLRLib.UIACacheRequest: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MetroUIACLRLib.UIACondition: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MetroUIACLRLib.UIAElement: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Methods:
+    SetFocus(): PrivateScope, Public, HideBySig
+    GetRuntimeId(Int32[]&(Out)): PrivateScope, Public, HideBySig
+    FindFirst(TreeScope, UIACondition, UIAElement&(Out)): PrivateScope, Public, HideBySig
+    FindAll(TreeScope, UIACondition, UIAElement[](Out)): PrivateScope, Public, HideBySig
+    FindFirstBuildCache(TreeScope, UIACondition, UIACacheRequest, UIAElement*(Out) IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    FindAllBuildCache(TreeScope, UIACondition, UIACacheRequest, UIAElement[]*(Out) IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    BuildUpdatedCache(UIACacheRequest, UIAElement*(Out) IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetCurrentPropertyValue(PROPERTYID, VarEnum&(Out), Object&(Out)): PrivateScope, Public, HideBySig
+    GetCurrentPropertyValueEx(PROPERTYID, Boolean(HasFieldMarshal), VarEnum&(Out), Object&(Out)): PrivateScope, Public, HideBySig
+    GetCachedPropertyValue(PROPERTYID, VarEnum&(Out), Object&(Out)): PrivateScope, Public, HideBySig
+    GetCachedPropertyValueEx(PROPERTYID, Boolean(HasFieldMarshal), VarEnum&(Out), Object&(Out)): PrivateScope, Public, HideBySig
+    CachedParent(UIAElement*(Out) IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    CachedChildren(UIAElement[]*(Out) IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    CurrentProcessId(Int32&(Out)): PrivateScope, Public, HideBySig
+    CurrentControlType(CONTROLTYPEID&(Out)): PrivateScope, Public, HideBySig
+    CurrentLocalizedControlType(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentName(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentAcceleratorKey(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentAccessKey(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentHasKeyboardFocus(Boolean&(Out)): PrivateScope, Public, HideBySig
+    CurrentIsKeyboardFocusable(Boolean&(Out)): PrivateScope, Public, HideBySig
+    CurrentIsEnabled(Boolean&(Out)): PrivateScope, Public, HideBySig
+    CurrentAutomationId(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentClassName(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentHelpText(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentCulture(Int32&(Out)): PrivateScope, Public, HideBySig
+    CurrentIsControlElement(Boolean&(Out)): PrivateScope, Public, HideBySig
+    CurrentIsContentElement(Boolean&(Out)): PrivateScope, Public, HideBySig
+    CurrentIsPassword(Boolean&(Out)): PrivateScope, Public, HideBySig
+    CurrentNativeWindowHandle(IntPtr): PrivateScope, Public, HideBySig
+    CurrentItemType(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentIsOffscreen(Boolean&(Out)): PrivateScope, Public, HideBySig
+    CurrentOrientation(OrientationType&(Out)): PrivateScope, Public, HideBySig
+    CurrentFrameworkId(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentIsRequiredForForm(Boolean&(Out)): PrivateScope, Public, HideBySig
+    CurrentItemStatus(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentBoundingRectangle(Rect&(Out)): PrivateScope, Public, HideBySig
+    CurrentLabeledBy(UIAElement&(Out)): PrivateScope, Public, HideBySig
+    CurrentAriaRole(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentAriaProperties(String&(Out)): PrivateScope, Public, HideBySig
+    CurrentIsDataValidForForm(Boolean&(Out)): PrivateScope, Public, HideBySig
+    CurrentControllerFor(UIAElement[]&(Out)): PrivateScope, Public, HideBySig
+    CurrentDescribedBy(UIAElement[]&(Out)): PrivateScope, Public, HideBySig
+    CurrentFlowsTo(UIAElement[]&(Out)): PrivateScope, Public, HideBySig
+    CurrentProviderDescription(String&(Out)): PrivateScope, Public, HideBySig
+    CachedProcessId(Int32&(Out)): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MetroUIACLRLib.UIATreeWalker: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MetroUIACLRLib.UIAPropertyChangedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Action`4[MetroUIACLRLib.UIAElement,MetroUIACLRLib.PROPERTYID,System.Runtime.InteropServices.VarEnum,System.Object] HandlePropertyChangedEvent 'get set' : 
+  Methods:
+    OnHandlePropertyChangedEvent(UIAElement, PROPERTYID, VarEnum, Object): PrivateScope, Public, HideBySig
+    get_HandlePropertyChangedEvent(): PrivateScope, Public, HideBySig, SpecialName
+    set_HandlePropertyChangedEvent(Action`4): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MetroUIACLRLib.UIAFocusChangedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Action`1[MetroUIACLRLib.UIAElement] HandleFocusChangedEvent 'get set' : 
+  Methods:
+    OnHandleFocusChangedEvent(UIAElement): PrivateScope, Public, HideBySig
+    get_HandleFocusChangedEvent(): PrivateScope, Public, HideBySig, SpecialName
+    set_HandleFocusChangedEvent(Action`1): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MetroUIACLRLib.UIAStructureChangedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MetroUIACLRLib.UIAEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    OnHandleAutomationEvent(UIAEventHandler, UIAElement, EventID): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MetroUIACLRLib.UIAutomation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Methods:
+    CompareElements(UIAElement, UIAElement, Boolean&(Out)): PrivateScope, Public, HideBySig
+    CompareRuntimeIds(Int32[], Int32[], Boolean&(Out)): PrivateScope, Public, HideBySig
+    GetRootElement(UIAElement&(Out)): PrivateScope, Public, HideBySig
+    ElementFromHandle(IntPtr): PrivateScope, Public, HideBySig
+    ElementFromHandle(IntPtr, UIAElement&(Out)): PrivateScope, Public, HideBySig
+    ElementFromPoint(Point): PrivateScope, Public, HideBySig
+    ElementFromPoint(Point, UIAElement&(Out)): PrivateScope, Public, HideBySig
+    GetFocusedElement(): PrivateScope, Public, HideBySig
+    GetFocusedElement(UIAElement&(Out)): PrivateScope, Public, HideBySig
+    GetRootElementBuildCache(UIACacheRequest): PrivateScope, Public, HideBySig
+    GetRootElementBuildCache(UIACacheRequest, UIAElement&(Out)): PrivateScope, Public, HideBySig
+    ElementFromHandleBuildCache(IntPtr, UIACacheRequest): PrivateScope, Public, HideBySig
+    ElementFromHandleBuildCache(IntPtr, UIACacheRequest, UIAElement&(Out)): PrivateScope, Public, HideBySig
+    ElementFromPointBuildCache(Point, UIACacheRequest): PrivateScope, Public, HideBySig
+    ElementFromPointBuildCache(Point, UIACacheRequest, UIAElement&(Out)): PrivateScope, Public, HideBySig
+    GetFocusedElementBuildCache(UIACacheRequest): PrivateScope, Public, HideBySig
+    GetFocusedElementBuildCache(UIACacheRequest, UIAElement&(Out)): PrivateScope, Public, HideBySig
+    CreateTreeWalker(UIACondition, UIATreeWalker&(Out)): PrivateScope, Public, HideBySig
+    getControlViewWalker(UIATreeWalker&(Out)): PrivateScope, Public, HideBySig
+    getContentViewWalker(UIATreeWalker&(Out)): PrivateScope, Public, HideBySig
+    getRawViewWalker(UIATreeWalker&(Out)): PrivateScope, Public, HideBySig
+    getRawViewCondition(UIACondition&(Out)): PrivateScope, Public, HideBySig
+    getControlViewCondition(UIACondition&(Out)): PrivateScope, Public, HideBySig
+    getContentViewCondition(UIACondition&(Out)): PrivateScope, Public, HideBySig
+    CreateCacheRequest(UIACacheRequest&(Out)): PrivateScope, Public, HideBySig
+    CreateTrueCondition(UIACondition&(Out)): PrivateScope, Public, HideBySig
+    CreateFalseCondition(UIACondition&(Out)): PrivateScope, Public, HideBySig
+    CreatePropertyCondition(UIACondition&(Out)): PrivateScope, Public, HideBySig
+    CreatePropertyConditionEx(PROPERTYID, VarEnum, Object IsByValue, PropertyConditionFlags, UIACondition&(Out)): PrivateScope, Public, HideBySig
+    CreateAndCondition(UIACondition, UIACondition, UIACondition&(Out)): PrivateScope, Public, HideBySig
+    CreateAndConditionFromArray(UIACondition[], UIACondition&(Out)): PrivateScope, Public, HideBySig
+    CreateOrCondition(UIACondition, UIACondition, UIACondition&(Out)): PrivateScope, Public, HideBySig
+    CreateOrConditionFromArray(UIACondition[], UIACondition&(Out)): PrivateScope, Public, HideBySig
+    CreateNotCondition(UIACondition, UIACondition&(Out)): PrivateScope, Public, HideBySig
+    AddAutomationEventHandler(EventID, UIAElement, UIACacheRequest, UIAEventHandler): PrivateScope, Public, HideBySig
+    RemoveAutomationEventHandler(EventID, UIAElement, UIAEventHandler): PrivateScope, Public, HideBySig
+    AddPropertyChangedEventHandlerArray(UIAElement, TreeScope, UIACacheRequest, UIAPropertyChangedEventHandler, PROPERTYID[]): PrivateScope, Public, HideBySig
+    RemovePropertyChangedEventHandler(UIAElement, UIAPropertyChangedEventHandler): PrivateScope, Public, HideBySig
+    AddStructureChangedEventHandler(UIAElement, TreeScope, UIACacheRequest, UIAStructureChangedEventHandler): PrivateScope, Public, HideBySig
+    RemoveStructureChangedEventHandler(UIAElement, UIAStructureChangedEventHandler): PrivateScope, Public, HideBySig
+    AddFocusChangedEventHandler(UIAElement, UIAFocusChangedEventHandler): PrivateScope, Public, HideBySig
+    RemoveFocusChangedEventHandler(UIAFocusChangedEventHandler): PrivateScope, Public, HideBySig
+    RemoveAllEventHandlers(): PrivateScope, Public, HideBySig
+    GetPropertyProgrammaticName(PATTERNID, String&(Out)): PrivateScope, Public, HideBySig
+    GetPropertyProgrammaticName(PROPERTYID, String&(Out)): PrivateScope, Public, HideBySig
+    PollForPotentialSupportedPatterns(UIAElement, PATTERNID[]&(Out), String[]&(Out)): PrivateScope, Public, HideBySig
+    PollForPotentialSupportedProperties(UIAElement, PROPERTYID[]&(Out), String[]&(Out)): PrivateScope, Public, HideBySig
+    CheckNotSupported(VarEnum, Object, Boolean&(Out)): PrivateScope, Public, HideBySig
+    CreateUIAutomation(UIAutomation&(Out)): PrivateScope, Public, Static, HideBySig
+    CloseUIAutomation(UIAutomation): PrivateScope, Public, Static, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct MetroUIACLRLib.EventID: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MetroUIACLRLib.EventID UIA_DropTarget_DroppedEventId = 20031 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_DropTarget_DragLeaveEventId = 20030 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_DropTarget_DragEnterEventId = 20029 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_Drag_DragCompleteEventId = 20028 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_Drag_DragCancelEventId = 20027 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_Drag_DragStartEventId = 20026 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_HostedFragmentRootsInvalidatedEventId = 20025 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_LiveRegionChangedEventId = 20024 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_SystemAlertEventId = 20023 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_InputDiscardedEventId = 20022 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_InputReachedOtherElementEventId = 20021 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_InputReachedTargetEventId = 20020 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_MenuModeEndEventId = 20019 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_MenuModeStartEventId = 20018 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_Window_WindowClosedEventId = 20017 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_Window_WindowOpenedEventId = 20016 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_Text_TextChangedEventId = 20015 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_Text_TextSelectionChangedEventId = 20014 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_Selection_InvalidatedEventId = 20013 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_SelectionItem_ElementSelectedEventId = 20012 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_SelectionItem_ElementRemovedFromSelectionEventId = 20011 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_SelectionItem_ElementAddedToSelectionEventId = 20010 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_Invoke_InvokedEventId = 20009 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_LayoutInvalidatedEventId = 20008 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_MenuClosedEventId = 20007 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_AsyncContentLoadedEventId = 20006 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_AutomationFocusChangedEventId = 20005 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_AutomationPropertyChangedEventId = 20004 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_MenuOpenedEventId = 20003 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_StructureChangedEventId = 20002 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_ToolTipClosedEventId = 20001 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.EventID UIA_ToolTipOpenedEventId = 20000 : Public, Static, Literal, HasDefault
+Struct MetroUIACLRLib.OrientationType: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+Struct MetroUIACLRLib.TreeScope: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MetroUIACLRLib.TreeScope TreeScope_Subtree = 7 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TreeScope TreeScope_Ancestors = 16 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TreeScope TreeScope_Parent = 8 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TreeScope TreeScope_Descendants = 4 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TreeScope TreeScope_Children = 2 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TreeScope TreeScope_Element = 1 : Public, Static, Literal, HasDefault
+Struct MetroUIACLRLib.PropertyConditionFlags: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MetroUIACLRLib.PropertyConditionFlags PropertyConditionFlags_IgnoreCase = 1 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PropertyConditionFlags PropertyConditionFlags_None = 0 : Public, Static, Literal, HasDefault
+Struct MetroUIACLRLib.AutomationElementMode: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MetroUIACLRLib.AutomationElementMode AutomationElementMode_Full = 1 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.AutomationElementMode AutomationElementMode_None = 0 : Public, Static, Literal, HasDefault
+Struct MetroUIACLRLib.CONTROLTYPEID: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+Struct MetroUIACLRLib.PATTERNID: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MetroUIACLRLib.PATTERNID NONE = 0 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_DropTargetPatternId = 10031 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_DragPatternId = 10030 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_TextChildPatternId = 10029 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_TransformPattern2Id = 10028 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_SpreadsheetItemPatternId = 10027 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_SpreadsheetPatternId = 10026 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_StylesPatternId = 10025 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_TextPattern2Id = 10024 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_AnnotationPatternId = 10023 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_ObjectModelPatternId = 10022 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_SynchronizedInputPatternId = 10021 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_VirtualizedItemPatternId = 10020 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_ItemContainerPatternId = 10019 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_LegacyIAccessiblePatternId = 10018 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_ScrollItemPatternId = 10017 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_TransformPatternId = 10016 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_TogglePatternId = 10015 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_TextPatternId = 10014 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_TableItemPatternId = 10013 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_TablePatternId = 10012 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_DockPatternId = 10011 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_SelectionItemPatternId = 10010 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_WindowPatternId = 10009 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_MultipleViewPatternId = 10008 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_GridItemPatternId = 10007 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_GridPatternId = 10006 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_ExpandCollapsePatternId = 10005 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_ScrollPatternId = 10004 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_RangeValuePatternId = 10003 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_ValuePatternId = 10002 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_SelectionPatternId = 10001 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PATTERNID UIA_InvokePatternId = 10000 : Public, Static, Literal, HasDefault
+Struct MetroUIACLRLib.PROPERTYID: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MetroUIACLRLib.PROPERTYID UIA_FlowsFromPropertyId = 30148 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_Transform2ZoomMaximumPropertyId = 30147 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_Transform2ZoomMinimumPropertyId = 30146 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_Transform2ZoomLevelPropertyId = 30145 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_DragGrabbedItemsPropertyId = 30144 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_DropTargetDropTargetEffectsPropertyId = 30143 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_DropTargetDropTargetEffectPropertyId = 30142 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsDropTargetPatternAvailablePropertyId = 30141 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_DragDropEffectsPropertyId = 30140 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_DragDropEffectPropertyId = 30139 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_DragIsGrabbedPropertyId = 30138 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsDragPatternAvailablePropertyId = 30137 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsTextChildPatternAvailablePropertyId = 30136 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LiveSettingPropertyId = 30135 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsTransformPattern2AvailablePropertyId = 30134 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_Transform2CanZoomPropertyId = 30133 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsSpreadsheetItemPatternAvailablePropertyId = 30132 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_SpreadsheetItemAnnotationTypesPropertyId = 30131 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_SpreadsheetItemAnnotationObjectsPropertyId = 30130 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_SpreadsheetItemFormulaPropertyId = 30129 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsSpreadsheetPatternAvailablePropertyId = 30128 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsStylesPatternAvailablePropertyId = 30127 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_StylesExtendedPropertiesPropertyId = 30126 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_StylesFillPatternColorPropertyId = 30125 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_StylesShapePropertyId = 30124 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_StylesFillPatternStylePropertyId = 30123 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_StylesFillColorPropertyId = 30122 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_StylesStyleNamePropertyId = 30121 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_StylesStyleIdPropertyId = 30120 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsTextPattern2AvailablePropertyId = 30119 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsAnnotationPatternAvailablePropertyId = 30118 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AnnotationTargetPropertyId = 30117 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AnnotationDateTimePropertyId = 30116 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AnnotationAuthorPropertyId = 30115 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AnnotationAnnotationTypeNamePropertyId = 30114 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AnnotationAnnotationTypeIdPropertyId = 30113 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsObjectModelPatternAvailablePropertyId = 30112 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_OptimizeForVisualContentPropertyId = 30111 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsSynchronizedInputPatternAvailablePropertyId = 30110 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsVirtualizedItemPatternAvailablePropertyId = 30109 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsItemContainerPatternAvailablePropertyId = 30108 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ProviderDescriptionPropertyId = 30107 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_FlowsToPropertyId = 30106 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_DescribedByPropertyId = 30105 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ControllerForPropertyId = 30104 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsDataValidForFormPropertyId = 30103 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AriaPropertiesPropertyId = 30102 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AriaRolePropertyId = 30101 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleDefaultActionPropertyId = 30100 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleSelectionPropertyId = 30099 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleKeyboardShortcutPropertyId = 30098 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleHelpPropertyId = 30097 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleStatePropertyId = 30096 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleRolePropertyId = 30095 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleDescriptionPropertyId = 30094 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleValuePropertyId = 30093 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleNamePropertyId = 30092 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LegacyIAccessibleChildIdPropertyId = 30091 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsLegacyIAccessiblePatternAvailablePropertyId = 30090 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_TransformCanRotatePropertyId = 30089 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_TransformCanResizePropertyId = 30088 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_TransformCanMovePropertyId = 30087 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ToggleToggleStatePropertyId = 30086 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_TableItemColumnHeaderItemsPropertyId = 30085 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_TableItemRowHeaderItemsPropertyId = 30084 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_TableRowOrColumnMajorPropertyId = 30083 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_TableColumnHeadersPropertyId = 30082 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_TableRowHeadersPropertyId = 30081 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_SelectionItemSelectionContainerPropertyId = 30080 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_SelectionItemIsSelectedPropertyId = 30079 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_WindowIsTopmostPropertyId = 30078 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_WindowIsModalPropertyId = 30077 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_WindowWindowInteractionStatePropertyId = 30076 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_WindowWindowVisualStatePropertyId = 30075 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_WindowCanMinimizePropertyId = 30074 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_WindowCanMaximizePropertyId = 30073 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_MultipleViewSupportedViewsPropertyId = 30072 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_MultipleViewCurrentViewPropertyId = 30071 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ExpandCollapseExpandCollapseStatePropertyId = 30070 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_DockDockPositionPropertyId = 30069 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_GridItemContainingGridPropertyId = 30068 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_GridItemColumnSpanPropertyId = 30067 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_GridItemRowSpanPropertyId = 30066 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_GridItemColumnPropertyId = 30065 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_GridItemRowPropertyId = 30064 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_GridColumnCountPropertyId = 30063 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_GridRowCountPropertyId = 30062 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_SelectionIsSelectionRequiredPropertyId = 30061 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_SelectionCanSelectMultiplePropertyId = 30060 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_SelectionSelectionPropertyId = 30059 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ScrollVerticallyScrollablePropertyId = 30058 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ScrollHorizontallyScrollablePropertyId = 30057 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ScrollVerticalViewSizePropertyId = 30056 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ScrollVerticalScrollPercentPropertyId = 30055 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ScrollHorizontalViewSizePropertyId = 30054 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ScrollHorizontalScrollPercentPropertyId = 30053 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_RangeValueSmallChangePropertyId = 30052 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_RangeValueLargeChangePropertyId = 30051 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_RangeValueMaximumPropertyId = 30050 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_RangeValueMinimumPropertyId = 30049 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_RangeValueIsReadOnlyPropertyId = 30048 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_RangeValueValuePropertyId = 30047 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ValueIsReadOnlyPropertyId = 30046 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ValueValuePropertyId = 30045 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsWindowPatternAvailablePropertyId = 30044 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsValuePatternAvailablePropertyId = 30043 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsTransformPatternAvailablePropertyId = 30042 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsTogglePatternAvailablePropertyId = 30041 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsTextPatternAvailablePropertyId = 30040 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsTableItemPatternAvailablePropertyId = 30039 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsTablePatternAvailablePropertyId = 30038 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsSelectionPatternAvailablePropertyId = 30037 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsSelectionItemPatternAvailablePropertyId = 30036 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsScrollItemPatternAvailablePropertyId = 30035 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsScrollPatternAvailablePropertyId = 30034 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsRangeValuePatternAvailablePropertyId = 30033 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsMultipleViewPatternAvailablePropertyId = 30032 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsInvokePatternAvailablePropertyId = 30031 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsGridPatternAvailablePropertyId = 30030 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsGridItemPatternAvailablePropertyId = 30029 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsExpandCollapsePatternAvailablePropertyId = 30028 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsDockPatternAvailablePropertyId = 30027 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ItemStatusPropertyId = 30026 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsRequiredForFormPropertyId = 30025 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_FrameworkIdPropertyId = 30024 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_OrientationPropertyId = 30023 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsOffscreenPropertyId = 30022 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ItemTypePropertyId = 30021 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_NativeWindowHandlePropertyId = 30020 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsPasswordPropertyId = 30019 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LabeledByPropertyId = 30018 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsContentElementPropertyId = 30017 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsControlElementPropertyId = 30016 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_CulturePropertyId = 30015 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ClickablePointPropertyId = 30014 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_HelpTextPropertyId = 30013 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ClassNamePropertyId = 30012 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AutomationIdPropertyId = 30011 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsEnabledPropertyId = 30010 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_IsKeyboardFocusablePropertyId = 30009 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_HasKeyboardFocusPropertyId = 30008 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AccessKeyPropertyId = 30007 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_AcceleratorKeyPropertyId = 30006 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_NamePropertyId = 30005 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_LocalizedControlTypePropertyId = 30004 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ControlTypePropertyId = 30003 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_ProcessIdPropertyId = 30002 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_BoundingRectanglePropertyId = 30001 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.PROPERTYID UIA_RuntimeIdPropertyId = 30000 : Public, Static, Literal, HasDefault
+Struct MetroUIACLRLib.TextAttributeID: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MetroUIACLRLib.TextAttributeID UIA_CaretBidiModeAttributeId = 40039 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_CaretPositionAttributeId = 40038 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_SelectionActiveEndAttributeId = 40037 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_IsActiveAttributeId = 40036 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_LinkAttributeId = 40035 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_StyleIdAttributeId = 40034 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_StyleNameAttributeId = 40033 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_AnnotationObjectsAttributeId = 40032 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_AnnotationTypesAttributeId = 40031 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_UnderlineStyleAttributeId = 40030 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_UnderlineColorAttributeId = 40029 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_TextFlowDirectionsAttributeId = 40028 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_TabsAttributeId = 40027 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_StrikethroughStyleAttributeId = 40026 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_StrikethroughColorAttributeId = 40025 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_OverlineStyleAttributeId = 40024 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_OverlineColorAttributeId = 40023 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_OutlineStylesAttributeId = 40022 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_MarginTrailingAttributeId = 40021 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_MarginTopAttributeId = 40020 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_MarginLeadingAttributeId = 40019 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_MarginBottomAttributeId = 40018 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_IsSuperscriptAttributeId = 40017 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_IsSubscriptAttributeId = 40016 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_IsReadOnlyAttributeId = 40015 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_IsItalicAttributeId = 40014 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_IsHiddenAttributeId = 40013 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_IndentationTrailingAttributeId = 40012 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_IndentationLeadingAttributeId = 40011 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_IndentationFirstLineAttributeId = 40010 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_HorizontalTextAlignmentAttributeId = 40009 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_ForegroundColorAttributeId = 40008 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_FontWeightAttributeId = 40007 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_FontSizeAttributeId = 40006 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_FontNameAttributeId = 40005 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_CultureAttributeId = 40004 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_CapStyleAttributeId = 40003 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_BulletStyleAttributeId = 40002 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_BackgroundColorAttributeId = 40001 : Public, Static, Literal, HasDefault
+    MetroUIACLRLib.TextAttributeID UIA_AnimationStyleAttributeId = 40000 : Public, Static, Literal, HasDefault

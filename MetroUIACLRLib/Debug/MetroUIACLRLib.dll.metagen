@@ -1,0 +1,22 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly MetroUIACLRLib, Version=1.0.*, Culture=不因語言而異 (不因國別而異): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct PROPERTYID: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+Class MetroUIACLRLib.UIAutomation: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Methods:
+    test(Int32&): PrivateScope, Public, HideBySig
+    test2(Int32&(Out)): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig

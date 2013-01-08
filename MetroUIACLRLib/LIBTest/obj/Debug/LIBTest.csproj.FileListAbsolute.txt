@@ -1,0 +1,8 @@
+C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\LIBTest\bin\Debug\LIBTest.exe.config
+C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\LIBTest\bin\Debug\LIBTest.exe
+C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\LIBTest\bin\Debug\LIBTest.pdb
+C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\LIBTest\bin\Debug\MetroUIACLRLib.dll
+C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\LIBTest\bin\Debug\MetroUIACLRLib.pdb
+C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\LIBTest\obj\Debug\LIBTest.csprojResolveAssemblyReference.cache
+C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\LIBTest\obj\Debug\LIBTest.exe
+C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\LIBTest\obj\Debug\LIBTest.pdb

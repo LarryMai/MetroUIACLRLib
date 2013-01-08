@@ -1,0 +1,33 @@
+﻿已經開始建置於 1/8/2013 5:45:03 PM。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\MetroUIACLRLib\MetroUIACLRLib.vcxproj"。
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\MetroUIACLRLib.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\WindowsBase.dll" /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\WindowsBase.dll" /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp MetroUIACLRLib.cpp NativeHandlers.cpp UIAElement.cpp UIAEventHandler.cpp UIAutomation.cpp
+         AssemblyInfo.cpp
+         MetroUIACLRLib.cpp
+         NativeHandlers.cpp
+         UIAElement.cpp
+     1>UIAElement.cpp(29): warning C4018: '<' : signed/unsigned 不相符
+         UIAEventHandler.cpp
+         UIAutomation.cpp
+     1>UIAutomation.cpp(88): warning C4244: '=' : 將 'double' 轉換為 'LONG'，由於型別不同，可能導致資料遺失
+     1>UIAutomation.cpp(89): warning C4244: '=' : 將 'double' 轉換為 'LONG'，由於型別不同，可能導致資料遺失
+         正在產生程式碼...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /errorReport:prompt "C:\Users\Larry\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Debug\app.res" app.rc 
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\x64\Debug\MetroUIACLRLib.dll" /INCREMENTAL /NOLOGO ole32.lib oleaut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\x64\Debug\MetroUIACLRLib.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\MetroUIACLRLib.obj
+         x64\Debug\NativeHandlers.obj
+         x64\Debug\Stdafx.obj
+         x64\Debug\UIAElement.obj
+         x64\Debug\UIAEventHandler.obj
+         x64\Debug\UIAutomation.obj
+         "x64\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         MetroUIACLRLib.vcxproj -> C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\x64\Debug\MetroUIACLRLib.dll
+     1>專案 "C:\Users\Larry\Documents\Visual Studio 2012\Projects\MetroUIACLRLib\MetroUIACLRLib\MetroUIACLRLib.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:10.65
